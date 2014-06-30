@@ -1,0 +1,22 @@
+package com.cursoAndroid.practico4.collection;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import com.cursoAndoid.practico4.entities.Pelicula;
+import com.cursoAndroid.practica4.R;
+
+import android.content.Context;
+
+public class Peliculas {
+  public static ArrayList<Peliculas> getAll(Context cnt){
+	ArrayList<Pelicula>  pelis = new ArrayList<Pelicula>();
+	List<String> Lines = Arrays.asList(cnt.getResources().getStringArray(R.array.peliculas))
+    int ranking = 1;
+	
+	  
+	  return pelis;
+	  
+  }
+}

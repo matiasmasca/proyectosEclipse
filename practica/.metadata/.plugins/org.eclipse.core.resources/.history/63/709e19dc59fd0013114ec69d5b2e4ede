@@ -1,0 +1,5 @@
+package com.cursoAndoid.practico4.entities;
+
+public class Pelicula {
+
+}

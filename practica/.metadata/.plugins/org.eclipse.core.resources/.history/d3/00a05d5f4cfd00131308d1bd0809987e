@@ -1,0 +1,42 @@
+package com.cursoAndroid.practica4;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.AdapterView.OnItemSelectedListener;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+import android.widget.TextView;
+
+public class ListviewActivity extends Activity implements OnItemSelectedListener  {
+	private TextView mMensaje;
+	private ListView mLista;
+	private String[] mPeliculas;
+	
+	@Override
+	public void onCreate(Bundle savedInstanceState){
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.spiner_activity);
+		
+		addWidgets();
+		addAdapters();
+		addListeners();
+	}
+
+	private void addListeners() {
+		mLista.setOnItemSelectedListener(this);
+		
+	}
+
+	private void addAdapters() {
+		mPeliculas = new String[]{"Peli1","Peli 02","Peli 03","Peli 04","Peli 05","Peli 06","Peli 07","Peli 08","Peli 09","Peli 10","Peli 11","Peli 12"};
+		ArrayAdapter<String> adtPeliculas = new ArrayAdapter<String>(this, android.R.layout.simple_expandable_list_item_1, mPeliculas);
+		mLista.setAdapter(adtPeliculas);
+		
+	}
+
+	private void addWidgets() {
+		mMensaje = (TextView) findViewById(R.id.listview_activity_tvSeleccion);
+		mLista = (ListView) findViewById(R.id.listview_activity_lvPeliculas);
+	}
+  
+}

@@ -1,0 +1,16 @@
+package com.cursoAndroid.practica4;
+
+import android.os.Bundle;
+
+public class GridActivity {
+ private String[] datos = new String[25];
+ private GridView mOpciones;
+ private TextView mLabel;
+ 
+ @Override
+ public void onCreate(Bundle savedIntancesState){
+	 super.onCreate(savedIntancesState);
+	 setContentView(R.layout.gridview_activity)
+ }
+ 
+}

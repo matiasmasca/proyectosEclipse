@@ -1,0 +1,5 @@
+package com.cursoAndroid.practica5;
+
+public class TabViewActivity extends Activity  {
+
+}

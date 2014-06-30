@@ -1,0 +1,37 @@
+package com.cursoAndroid.practica4;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.ListView;
+import android.widget.TextView;
+
+public class ListviewActivity extends Activity  {
+	private TextView mMensaje;
+	private ListView mLista;
+	
+	@Override
+	public void onCreate(Bundle savedInstanceState){
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.spiner_activity);
+		
+		addWidgets();
+		addAdapters();
+		addListeners();
+	}
+
+	private void addListeners() {
+
+		
+	}
+
+	private void addAdapters() {
+
+		
+	}
+
+	private void addWidgets() {
+		mMensaje = (TextView) findViewById(R.id.listview_activity_);
+		mLista = (TextView) findViewById(R.id.);
+	}
+  
+}

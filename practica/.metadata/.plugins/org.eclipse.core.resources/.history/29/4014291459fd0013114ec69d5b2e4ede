@@ -1,0 +1,18 @@
+package com.cursoAndroid.practico4.collection;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import android.content.Context;
+
+public class Peliculas {
+  public static ArrayList<Peliculas> getAll(Context cnt){
+	ArrayList<Pelicula>  pelis = new ArrayList<Pelicula>();
+	List<String> Lines = ...
+    int ranking = 1;
+	
+	  
+	  return pelis;
+	  
+  }
+}
