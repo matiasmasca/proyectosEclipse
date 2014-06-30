@@ -47,9 +47,8 @@ public class MainActivity extends Activity implements OnClickListener{
 			 intent.setClass(this, TabViewActivity.class);
 			 startActivity(intent);
 			 break;
-
 	     }
-		
+
 	}
 	
 	
