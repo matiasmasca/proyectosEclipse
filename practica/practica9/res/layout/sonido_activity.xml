@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/sonido_activity_tvTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:stretchColumns="*"
+        >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/sonido_activity_btnCampana"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Campana" />
+
+            <Button
+                android:id="@+id/sonido_activity_btnHechizo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hechizo" />
+
+            <Button
+                android:id="@+id/sonido_activity_btnLakeOfFire"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lake of Fire" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/sonido_activity_btnMar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mar" />
+
+            <Button
+                android:id="@+id/sonido_activity_btnMonjes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Monjes" />
+
+            <Button
+                android:id="@+id/sonido_activity_btnOveja"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oveja" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/sonido_activity_btnRayo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rayo" />
+
+            <Button
+                android:id="@+id/sonido_activity_btnSuegra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suegra" />
+
+            <Button
+                android:id="@+id/sonido_activity_btnSuegro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suegro" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+ >
+
+            <Button
+                android:id="@+id/sonido_activity_btnVolver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Volver" 
+                android:layout_span="3"
+                />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

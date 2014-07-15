@@ -8,23 +8,23 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="Seleccione una opción" />
 
     <Button
         android:id="@+id/main_activity_btnMenus"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Menus" />
 
     <Button
         android:id="@+id/main_activity_btnMenuContextual"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Menus Contextuales" />
 
     <Button
         android:id="@+id/main_activity_btnSalir"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Salir" />
 
